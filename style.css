@@ -1,55 +1,36 @@
-.grid {
-    padding:0;
-    margin:0;
+.body {
+    background-image: url(background.png);
+    background-color: #cccccc;
 }
 
-.dino {
-    width: 101px;
-    height: 43px;
-    /* background-color: crimson;
-     */
 
-    position: absolute;
-    background-repeat: no-repeat;
-    background-image: url(drone-last.png);
-     
-     /* background-color: currentColor; */
-    bottom: 300px;
+.Easy {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
 
-.building {
-    position: absolute;
-    /* background-image: url(building-pic.jpg);
-     */
-    /* background-color: black; */
-    background-image: url(building-pic.jpg);
-    width: 70px;
-    height: 320px;
-
-    bottom: 211px;
+.Hard{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
 
-.drone {
-    position: absolute;
-    width: 120px;
-    height: 240px;
-    /* background-color: black;
-     */
-    background-image: url(obstacle-hope-2.png);
-    bottom: 500px;
+.Medium{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
 
-.sky {
-    width: 1520px;
-    height: 580px;
-    position: absolute;
-    background-color: lightblue;
-}
 
-.ground {
-    background-color: saddlebrown;
-    width: 1520px;
-    height: 170px;
-    position: absolute;
-    top:580px;
+.main {
+    text-align: center;
+    margin: auto;
+
 }
